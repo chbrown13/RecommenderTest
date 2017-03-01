@@ -1,2 +1,2 @@
 # RecommenderTest
-Test repository for  automated recommendation system with Jenkins
+Test repository for automated recommendation system with Jenkins
