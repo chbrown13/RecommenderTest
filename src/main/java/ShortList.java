@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class ShortList {
   public static void main (String[] args) {
     List<Short> s = new ArrayList<>();
