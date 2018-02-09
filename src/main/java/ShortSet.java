@@ -1,11 +1,18 @@
 import java.util.*;
 
 public class ShortSet {
+  private void test(String none) {
+    none = null;
+  }
+  
   public static void main (String[] args) {
     Set<Short> s = new HashSet<Short>();
+    List<Short> l = new ArrayList<Short>();
+    int x = 100;
     for (short i = 0; i < 100; i++) {
+      short sh = i - 1;
       s.add(i);
-      s.remove(i - 1);
+      s.remove(sh);
     }
     System.out.println(s.size());
   }
