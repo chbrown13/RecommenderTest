@@ -1,4 +1,2 @@
 # RecommenderTest
-Test project for automated recommendation system with Jenkins
-
-commit after pull request base
+Test project for tool-recommender-bot
