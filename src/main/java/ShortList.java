@@ -3,7 +3,7 @@ import java.util.*;
 public class ShortList {
   public static void main (String[] args) {
     Set<Short> s = new HashSet<Short>();
-    for (short i = 0; i < 100; i++) {
+    for (short i = 0; i < 10; i++) {
       s.add(i);
       s.remove(i - 1);
     }
