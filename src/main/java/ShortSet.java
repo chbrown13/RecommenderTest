@@ -4,9 +4,8 @@ public class ShortSet {
   public static void main (String[] args) {
     Set<Short> s = new HashSet<Short>();
     for (short i = 0; i < 100; i++) {
-      short sh = i - 1;
       s.add(i);
-      s.remove(sh);
+      s.remove(i - 1);
     }
     System.out.println(s.size());
   }
