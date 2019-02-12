@@ -1,5 +1,5 @@
 public class HelloWorld {
     public static void main(String[] args) {
-           System.out.println("Hello World! This is testing a new commit too.");
+           System.out.println("Hello World! New java file commit again.");
     }
 }
