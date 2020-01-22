@@ -4,3 +4,9 @@
   <artifactId>tool-recommender-bot-test</artifactId>
   <version>1</version>
 </project>
+
+def test(status):
+  if status is True:
+    print 'passed'
+  else:
+    print 'failed'
