@@ -9,7 +9,7 @@
 <build>
 <plugins>
 <plugin>
-<groupId>org.apache.maven.plugins</groupId>
+print({s})
 <artifactId>maven-compiler-plugin</artifactId>
 <version>3.5.1</version>
 <configuration>
